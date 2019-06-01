@@ -6,6 +6,13 @@
       $this->load->database();
     }
 
+    function get_usuario($id) {
+      $args = array(
+        'id' => $id
+      );
+      return $this->db->get_where('usuario', $args)->result();
+    }
+    
     public function subir_imagen($index, $nombre, $camino) {
       $name = basename($_FILES[$index]["name"]);
       $tipo = strtolower(pathinfo($name,PATHINFO_EXTENSION));
@@ -23,24 +30,6 @@
       return $status;
     }
 
-    public function update($tabla, $id, $args) {
-      $primero = true;
-      $update = '';
-      $condiciones = [
-        'id' => $id
-      ];
-      foreach($args as $index => $value) {
-        if($primero) {
-          $update .= "$index = '$value'";
-          $primero = false;
-        }
-        else {
-          $update .= ", $index = '$value'";
-        }
-      }
-      $this->db->update($tabla, $update)->where($condiciones);
-    }
-
     public function update_imagen($tabla,$id,$index) {
       $condiciones = [
         'id' => $id
@@ -55,46 +44,6 @@
           return false;
         }
       }
-    }
-
-    public function get($tabla) {
-      $result = $this->db->get($tabla);
-      $resultados = [];
-      $i = 0;
-      if ($result->num_rows > 0) :
-          while($row = $result->fetch_assoc()) :
-            $resultados[$i] = $row;
-            $i++;
-          endwhile;
-      else :
-        $resultados = false;
-      endif;
-      return $resultados;
-    }
-
-    public function single($tabla, $id) {
-      $condiciones = [
-        'id' => $id
-      ];
-      $result = $this->db->get_where($tabla, $condiciones);
-      if ($result->num_rows > 0) :
-          while($row = $result->fetch_assoc()) :
-            $resultados = $row;
-          endwhile;
-      else :
-        $resultados = false;
-      endif;
-      return $resultados;
-    }
-
-    public function eliminar($tabla, $id) {
-      $condiciones = [
-        'id' => $id
-      ];
-      $result = $this->db->delete($tabla)->where($condiciones);
-      $path = "./imgs/$tabla/$id/";
-      eliminar_imagenes($path);
-      return $result;
     }
 
     public function eliminar_imagenes($url) {

@@ -7,7 +7,13 @@
     <title>Document</title>
 </head>
 <body>
+<h1>
+    <?php
+        echo $nombre . ' ' . $edad;
 
 
+
+    ?>
+</h1>
 </body>
 </html>

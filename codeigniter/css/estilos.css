@@ -1,9 +1,151 @@
+@font-face{
+  font-family: 'Airbnb Cereal App';
+  src: url(.../font/AirbnbCereal-Book.ttf);
+}
+
+@font-face{
+  font-family: 'Airbnb Cereal App';
+  src: url(.../font/AirbnbCereal-Medium.ttf);
+  font-weight: bold;
+}
+
+
+
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif; }
+  font-family: "Airbnb Cereal App", Helvetica, sans-serif;
+  font-weight: normal;
+  background-color: #F4F9FF;
+}
 
-a {
-  text-decoration: none; }
+.small-title-black{
+  font-weight: bold;
+  font-size: 18px;
+  color:#404040;
+}
 
-/*# sourceMappingURL=estilos.css.map */
+.formulario-login{
+  background-color: #ffffff;
+  box-shadow: 0px 3px 6px rgba(158,158,158,0.05);
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 80%;
+}
+
+.input-title{
+  font-size: 14px;
+  color: #8B8B8B;
+}
+
+.form-input{
+  text-align: center;
+  background-color: #F4F9FF; 
+  border: none;
+  text-decoration: none;
+  height: 35px;
+  width: 100%;
+}
+
+.boton-login{
+  background-color: #E0F7E9;
+  border-radius: 2px;
+  box-shadow: 0px 1px 2px rgba(158,158,158,0.05);
+  border: none;
+  color: #4acc85;
+  font-weight: 150px;
+  height: 35px;
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+
+.boton-login:hover{
+  background-color: #EBFFF3;
+}
+
+.logo-login{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.imagen{
+  height: 100%;
+  width: 100%;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+#formulario{
+  vertical-align: middle;
+}
+
+.space-login{
+  margin-top: 30%;
+}
+
+/*top nav-------------------------------------------------------------------------------------------*/
+
+.space-navs{
+  margin-top: 12px;
+}
+
+.topnav-vendedor{
+  color: #404040;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #ffff;
+  color: #404040;
+  box-shadow: 0px 3px 6px rgba(158,158,158,0.05);
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #8B8B8B;
+  text-align: center;
+  padding: 18px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 300px;
+}
+
+.topnav a:hover {
+  color: #40B8F2;
+}
+
+.active {
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/*top nav------------------------------------------------------------------------------------------- END */
+
