@@ -128,26 +128,6 @@ body {
 /*top nav------------------------------------------------------------------------------------------- END */
 
 
-/* SECCIONES LAURA */
-
-/* INICIO CLIENTE */
-
-.foto-perfil {
-  border-radius: 100%;
-  padding: 10px;
-  width: 120px;
-  height: auto;
-}
-
-.perfil,
-.mensajes{
-  background-color: white;
-  padding: 15px;
-  box-shadow: #404040;
-  margin-left: 20px;
-  margin-bottom: 20px;
-}
-
 
 /*titles-------------------------------------------------------------------------------------------*/
 
