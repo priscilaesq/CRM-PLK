@@ -1,6 +1,6 @@
 <div class="container">
 <p class="big-titles"> Registrar cliente </p>
-<button class="boton-azul"> Registrar clientes </button>
+<button class="boton-rojo"> Registrar clientes </button>
 
 <p class="texto-general-azul"> hola </p>
 <p class="texto-general-gris"> hola </p>
