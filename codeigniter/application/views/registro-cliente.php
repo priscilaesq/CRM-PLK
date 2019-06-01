@@ -8,6 +8,6 @@
 <p class="texto-general-lightgray"> hola </p>
 <p class="texto-general-gris-bold"> hola </p>
 
-
+<button class="boton-azul"> Editar </button>
 
 </div>
