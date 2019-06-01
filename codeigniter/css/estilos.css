@@ -19,12 +19,6 @@ body {
   background-color: #F4F9FF;
 }
 
-.small-title-black{
-  font-weight: bold;
-  font-size: 18px;
-  color:#404040;
-}
-
 .formulario-login{
   background-color: #ffffff;
   box-shadow: 0px 3px 6px rgba(158,158,158,0.05);
@@ -45,23 +39,6 @@ body {
   text-decoration: none;
   height: 35px;
   width: 100%;
-}
-
-.boton-login{
-  background-color: #E0F7E9;
-  border-radius: 2px;
-  box-shadow: 0px 1px 2px rgba(158,158,158,0.05);
-  border: none;
-  color: #4acc85;
-  font-weight: 150px;
-  height: 35px;
-  width: 100%;
-  margin-top: 25px;
-  margin-bottom: 40px;
-}
-
-.boton-login:hover{
-  background-color: #EBFFF3;
 }
 
 .logo-login{
@@ -100,6 +77,7 @@ body {
   background-color: #ffff;
   color: #404040;
   box-shadow: 0px 3px 6px rgba(158,158,158,0.05);
+  margin-bottom:30px;
 }
 
 .topnav a {
@@ -149,3 +127,93 @@ body {
 
 /*top nav------------------------------------------------------------------------------------------- END */
 
+/*titles-------------------------------------------------------------------------------------------*/
+
+.big-titles{
+  font-weight: 500;
+  font-size: 26px;
+  color: #404040;
+}
+
+.small-title-black{
+  font-weight: bold;
+  font-size: 18px;
+  color:#404040;
+}
+
+.texto-general-azul{
+  font-weight: 500;
+  font-size: 14px;
+  color: #40b8f2;
+}
+
+.texto-general-gris{
+  font-size: 14px;
+  color: #404040;
+}
+
+.texto-general-gris-bold{
+  font-size: 16px;
+  color: #404040;
+  font-weight: 500;
+}
+
+.texto-general-verde{
+  font-weight: 500;
+  font-size: 14px;
+  color: #4acc85;
+}
+
+.texto-general-lightgray{
+  font-weight: 100px;
+  font-size: 14px;
+  color: #8b8b8b;
+}
+
+
+
+
+
+/*titles------------------------------------------------------------------------------------------- END */
+
+/*button------------------------------------------------------------------------------------------- */
+
+.boton-login{
+  background-color: #E0F7E9;
+  border-radius: 2px;
+  box-shadow: 0px 1px 2px rgba(158,158,158,0.05);
+  border: none;
+  color: #4acc85;
+  font-weight: 150px;
+  height: 35px;
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+
+.boton-login:hover{
+  background-color: #EBFFF3;
+}
+
+.boton-azul{
+  background-color: #DCF2FF;
+  border-radius: 2px;
+  box-shadow: 0px 1px 2px rgba(158,158,158,0.05);
+  border: none;
+  color: #40B8F2;
+  font-weight: 150px;
+  height: 35px;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.boton-azul:hover{
+  background-color: #E3F5FF;
+}
+
+
+
+
+/*button------------------------------------------------------------------------------------------- END */
