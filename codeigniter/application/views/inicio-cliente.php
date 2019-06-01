@@ -8,15 +8,22 @@
 
                   <div class ="perfil">
                     <img class="foto-perfil" src="/imgs/login-foto.png">
-                    <p>Diana Laura Martínez García</p>
-                    <button>Editar perfil</button>
+                    <p class = "small-title-black">Diana Laura Martínez García</p>
+                    <button class="boton-azul"> Editar </button>
                   </div>
                   <div class = "caja perfil">
-                    <p> Marca </p>
-                    <p class = "info"> Audi</p>
+                    <p class = "texto-general-gris"> Marca </p>
+                    <p class = "texto-general-azul"> Audi </p>
 
-                    <p> Marca </p>
-                    <p class = "info"> Audi</p>
+                    <p class = "texto-general-gris"> Estado </p>
+                    <p class = "texto-general-azul"> En espera</p>
+
+                    <p class = "texto-general-gris"> Modelo </p>
+                    <p class = "texto-general-azul"> A1 Sportback</p>
+
+                    <p class = "texto-general-gris"> Modelo </p>
+                    <p class = "texto-general-azul"> A1 Sportback</p>
+
                   </div>
                 </article>
             </section>
