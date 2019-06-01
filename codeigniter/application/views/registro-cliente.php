@@ -16,9 +16,6 @@
                         <input name="correo" class="form-input" type="email">
                     </article>
 
-<<<<<<< HEAD
-<button class="boton-azul"> Editar </button>
-=======
 
                     <article class="col-md-6">
                         <p class="input-title"> Correo electrónico </p>
@@ -140,6 +137,5 @@
 
 </article>
                
->>>>>>> 085a77802ad2a831d984b1eb9ce7d9898eff3373
 
 </div>

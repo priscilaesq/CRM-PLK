@@ -76,11 +76,11 @@
                                             <input name="contrasena" class="form-input" type="password">
                                     </article>
 
-                                    <button class="boton-login" type="submit"> Registrar vendedor </button>
+                                    <center><button class="boton-verde" type="submit"> Registrar vendedor </button></center>
 
                                 </form>
                             
-                    </div>
+                    </div> 
                 </article>
             </section>  
             
