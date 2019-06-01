@@ -120,13 +120,11 @@
                     </article>
 
 
-                    <div class="space-100"></div>
-                    <div class="space-40"></div>
-
                     <br><br>
                     <article class="col-md-12">
                        <center> <button class="boton-verde"> Registrar cliente </button></center>
                     </article>
+                    
                 </div>
                 </form>  
                 
