@@ -1,7 +1,14 @@
 <section id="mi-perfil">
     <div class="container">
-
+ 
+    <div class="row">
+    <article class="col-md-6 col-sm-6 col-xs-6">
     <p class = "big-titles">Perfil General </p>
+</article>
+<article class="col-md-6 col-sm-6 col-xs-6 padding-less">
+    <button class="boton-rojo-perfil position"> Cerrar Sesión </button>
+</article>
+</div>
         <div class="row">
            <div class="col-md-12 perfil-box">
                 <div class="row">
