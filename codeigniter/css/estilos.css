@@ -185,6 +185,29 @@ textarea {
   border-color: #C4E6FD;
   border-radius: 2px;
 }
+
+.mensaje-muro {
+  width: 100%;
+  resize: none;
+  padding-left: 15px;
+  border-radius: 2px;
+  border: 2px solid;
+  border-color: #C4E6FD;
+}
+
+.respuesta-muro {
+  width: 100%;
+  resize: none;
+  padding-left: 15px;
+  border-radius: 2px;
+  border: 2px solid;
+  border-color: #E0F7E9;
+}
+
+.mensajes-muro-general {
+  padding: 5px;
+}
+
 /*Dashboard cliente -------------------------------------------------------------------------------END */
 
 
@@ -202,15 +225,38 @@ textarea {
   color:#404040;
 }
 
+/* Se usa en dashboard cliente */
+.nombre-chat{
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  color:#404040;
+}
+
 .texto-general-azul{
   font-weight: 500;
   font-size: 14px;
   color: #40b8f2;
 }
 
+/* Se usa en dashboard cliente */
+.link-archivo{
+  font-weight: 150;
+  font-size: 14px;
+  color: #40b8f2;
+  text-decoration: underline;
+  padding-bottom: 10px;
+}
+
 .texto-general-gris{
   font-size: 14px;
   color: #404040;
+}
+
+/* Se usa en dashboard cliente */
+.texto-fecha{
+  font-size: 12px;
+  color: #5a5a5a;
 }
 
 .texto-general-gris-bold{
@@ -265,6 +311,7 @@ textarea {
   padding-left: 40px;
   padding-right: 40px;
 }
+
 
 .boton-azul:hover{
   background-color: #E3F5FF;
