@@ -66,16 +66,6 @@
                     <textarea>¿Tienes alguna duda? </textarea>
                   </div>
 
-<<<<<<< HEAD
-                  <article class="col-md-6">
-                    <p class="input-title"> Adjuntar archivo </p>
-                    <input type="file" name="archivo" class="upload-button">
-                  </article>
-
-                  <article class="col-md-6">
-                    <button class="boton-azul"> Comentar </button>
-                  </article>
-=======
                   <div class="row">
                     <article class="col-md-6">
                       <p class="input-title"> Adjuntar archivo </p>
@@ -106,7 +96,6 @@
                     </div>
                     </article>
 
->>>>>>> 3c4c7df3fab364161fbce647092ba4d698562353
 
 
                 </div>
