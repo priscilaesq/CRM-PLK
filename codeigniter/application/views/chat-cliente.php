@@ -2,36 +2,29 @@
     <div class="container">
 
         <div class="row">
-          <div class = "push-left">
-            <p class = "big-titles">Bienvenida, Laura </p>
-          </div>
+
+            <div class="row">
+                <section id="nombre-boton">
+                    <article class = "col-xs-9 col-md-9">
+                        <p class="big-titles push-left"> Chat cliente: Laura Martínez </p> 
+                    </article>
+                    <article class="col-xs-3 col-md-3 ">
+                        <button class="boton-rojo-no-margen float-boton-right"> Archivar caso </button>
+                    </article> 
+                </section>
+            </div>
+          
             <section id="info-cliente">
                 <article class="col-md-5">
 
-                <div class = "profile-client">
-                    <div class = "row">
-                      <section class = "profile">
-                        <article class = "col-md-5">
-                        <div class = "push-left">
-                          <img class="img-circle" src="/imgs/Sunny.jpg">
-                          </div>
-                        </article>
+                <div class = "info-auto">
 
-                        <article class = "col-md-7">
-                          <div class = "spacer-laura2">
-                            <p class = "small-title-black">Diana Laura Martínez García</p>
-                          </div>
-                          <button class="boton-verde"> Editar perfil </button>
-                        </article>
-
-                      </section>
-                    </div>
-
-                </div>
-
-                  <div class = "info-auto">
                     <div class="row">
                       <section class = "auto-specs">
+                        <article class="col-md-12">
+                            <p class="texto-general-gris-bold"> Información del carro </p> 
+                        </article> 
+
                         <article class="col-md-6">
                           <div class = "spacer-laura">
                           <p class = "texto-general-gris"> Marca </p>
@@ -54,6 +47,24 @@
                       </section>
                     </div>
                   </div>
+
+                <div class = "profile-client">
+                    <div class = "row">
+                      <section class = "profile auto-specs">
+                        <article class="col-md-12">
+                            <p class="texto-general-gris-bold">  Avisos </p> 
+                        </article> 
+
+                        <article class="col-md-12">
+                            <p class="texto-general-gris">  
+                                Mandar a pedir cotizacioón de rines súper chilos.
+                            </p> 
+                        </article> 
+
+                      </section>
+                    </div>
+
+                </div>
 
                 </article>
             </section>
