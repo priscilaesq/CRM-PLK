@@ -369,8 +369,8 @@ textarea {
   color: #4acc85;
   font-weight: 150px;
   height: 35px;
-  padding-left: 35px;
-  padding-right: 35px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-top: 0px;
   margin-bottom: 40px;
 }
@@ -465,4 +465,87 @@ textarea {
 .col-md-3{
   padding-left: 5px;
   padding-right: 5px;
+}
+
+/* mi perfil ---------------------------------------------------------------------------------------*/
+
+
+.perfil-box{
+  background-color: #ffffff;
+  box-shadow: 0px 3px 6px rgba(158,158,158,0.05);
+  width: 100%;
+  padding-bottom: 30px;
+  height: 30%;
+  margin-top: 10px;
+}
+
+.perfil-box-form{
+  background-color: #ffffff;
+  box-shadow: 0px 3px 6px rgba(158,158,158,0.05);
+  width: 100%;
+  margin-top: 10px;
+}
+
+.img-space{
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.name-space{
+  margin-top: 60px;
+}
+
+.position{
+  float: right;
+}
+
+.blue-link{
+  color: #40B8F2;
+  text-decoration: underline;
+}
+
+.blue-link:hover{
+  color: #90D2F2;
+  text-decoration: underline;
+}
+
+.small-title-black-name{
+  font-weight: bold;
+  font-size: 18px;
+  color:#404040;
+  padding-top: 50px;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .small-title-black-name {
+    padding-top: 10px;
+  }
+
+}
+
+.boton-azul-perfil{
+  background-color: #DCF2FF;
+  border-radius: 2px;
+  box-shadow: 0px 1px 2px rgba(158,158,158,0.05);
+  border: none;
+  color: #40B8F2;
+  font-weight: 150px;
+  height: 35px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 10px;
+  margin-left:20px;
+
+}
+
+.boton-azul-perfil:hover{
+  background-color: #E3F5FF;
+}
+
+@media screen and (max-width: 767px) {
+  .small-title-black-name {
+    padding-top: 10px;
+  }
+
 }

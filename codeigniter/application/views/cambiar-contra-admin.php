@@ -7,14 +7,10 @@
             <form action="" method="post">
                 <article class="col-md-6">
                             <p class="input-title"> Ingresa nueva contraseña </p>
-                            <input name="correo" class="form-input" type="email">
+                            <input name="contrasena" class="form-input" type="password">
                             <button class="boton-verde"> Registrar cliente </button>
                 </article>
             </form>
 
 </article>
 </div>
-
-
-
-

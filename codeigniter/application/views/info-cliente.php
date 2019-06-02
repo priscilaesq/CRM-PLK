@@ -1,5 +1,5 @@
 <div class="container">
-<p class="big-titles"> Registro de cliente </p>
+<p class="big-titles"> Informacion de Cliente </p>
         <div class="row">
             <article class="col-md-12 registro-cliente-box">
             <p class="texto-general-azul-big"> Datos Generales </p>
