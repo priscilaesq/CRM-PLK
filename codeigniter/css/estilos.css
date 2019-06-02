@@ -252,26 +252,6 @@ textarea {
   background-color: #EBFFF3;
 }
 
-
-.boton-verde-laura{
-  background-color: #E0F7E9;
-  border-radius: 2px;
-  box-shadow: 0px 1px 2px rgba(158,158,158,0.05);
-  border: none;
-  color: #4acc85;
-  font-weight: 500px;
-  height: 35px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding-left: 40px;
-  padding-right: 40px;
-  font-size: 16px;
-}
-
-.boton-verde-laura:hover{
-  background-color: #EBFFF3;
-}
-
 .boton-azul{
   background-color: #DCF2FF;
   border-radius: 2px;

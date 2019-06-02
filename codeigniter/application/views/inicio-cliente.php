@@ -21,7 +21,7 @@
                           <div class = "spacer-laura2">
                             <p class = "small-title-black">Diana Laura Martínez García</p>
                           </div>
-                          <button class="boton-verde-laura"> Editar perfil </button>
+                          <button class="boton-verde"> Editar perfil </button>
                         </article>
 
                       </section>
@@ -65,6 +65,18 @@
                   <div class = "texto-cliente">
                     <textarea>¿Tienes alguna duda? </textarea>
                   </div>
+
+
+
+                  <article class="col-md-6">
+                    <p class="input-title"> Adjuntar archivo </p>
+                    <input type="file" name="archivo" class="upload-button">
+                  </article>
+
+                  <article class="col-md-6">
+                    <button class="boton-azul"> Comentar </button>
+                  </article>
+
 
                 </div>
               </article>
