@@ -77,20 +77,41 @@
                     <textarea>¿Tienes alguna duda? </textarea>
                   </div>
 
-                  <article class="col-md-6">
-                    <p class="input-title"> Adjuntar archivo </p>
-                    <input type="file" name="archivo" class="upload-button">
-                  </article>
+                  <div class="row">
+                    <article class="col-md-6">
+                      <p class="input-title"> Adjuntar archivo </p>
+                      <input type="file" name="archivo" class="upload-button">
+                    </article>
 
-                  <article class="col-md-6">
-                    <button class="boton-azul"> Comentar </button>
-                  </article>
+                    <article class="col-md-6">
+                      <button class="boton-azul"> Comentar </button>
+                    </article>
+                  </div>
+
+                  <article class = "mensajes-muro-general">
+                    <div class = "mensaje-muro">
+                      <p class = "nombre-chat"> Saul Juarez </p>
+                      <p class = "texto-general-gris"> Buen día Laura, aquí está
+                      la cotización. Te adjunto el archivo. </p>
+                      <a class = "link-archivo">Ver archivo</a>
+                      <p class = "texto-fecha"> Martes, 30 de Mayo</p>
+                    </div>
+                    </article>
+
+                    <article class = "mensajes-muro-general">
+                    <div class = "respuesta-muro">
+                      <p class = "nombre-chat"> Laura Martínez</p>
+                      <p class = "texto-general-gris"> Hola Saúl, ¿me podrías
+                        enviar la cotización? ¡Gracias! </p>
+                      <p class = "texto-fecha"> Martes, 30 de Mayo</p>
+                    </div>
+                    </article>
+
 
 
                 </div>
               </article>
             </section>
-
 
 
         </div>
