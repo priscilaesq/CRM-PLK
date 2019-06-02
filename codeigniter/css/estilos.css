@@ -186,6 +186,29 @@ textarea {
   border-color: #C4E6FD;
   border-radius: 2px;
 }
+
+.mensaje-muro {
+  width: 100%;
+  resize: none;
+  padding-left: 15px;
+  border-radius: 2px;
+  border: 2px solid;
+  border-color: #C4E6FD;
+}
+
+.respuesta-muro {
+  width: 100%;
+  resize: none;
+  padding-left: 15px;
+  border-radius: 2px;
+  border: 2px solid;
+  border-color: #E0F7E9;
+}
+
+.mensajes-muro-general {
+  padding: 5px;
+}
+
 /*Dashboard cliente -------------------------------------------------------------------------------END */
 
 
@@ -203,15 +226,38 @@ textarea {
   color:#404040;
 }
 
+/* Se usa en dashboard cliente */
+.nombre-chat{
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  color:#404040;
+}
+
 .texto-general-azul{
   font-weight: 500;
   font-size: 14px;
   color: #40b8f2;
 }
 
+/* Se usa en dashboard cliente */
+.link-archivo{
+  font-weight: 150;
+  font-size: 14px;
+  color: #40b8f2;
+  text-decoration: underline;
+  padding-bottom: 10px;
+}
+
 .texto-general-gris{
   font-size: 14px;
   color: #404040;
+}
+
+/* Se usa en dashboard cliente */
+.texto-fecha{
+  font-size: 12px;
+  color: #5a5a5a;
 }
 
 .texto-general-gris-bold{
@@ -266,6 +312,7 @@ textarea {
   padding-left: 40px;
   padding-right: 40px;
 }
+
 
 .boton-azul:hover{
   background-color: #E3F5FF;
@@ -370,8 +417,8 @@ textarea {
   color: #4acc85;
   font-weight: 150px;
   height: 35px;
-  padding-left: 35px;
-  padding-right: 35px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-top: 0px;
   margin-bottom: 40px;
 }
@@ -468,6 +515,7 @@ textarea {
   padding-right: 5px;
 }
 
+<<<<<<< HEAD
 /* chat cliente ------------------------------*/
 .boton-rojo-no-margen{
   background-color: #FFDDDC;
@@ -475,10 +523,76 @@ textarea {
   box-shadow: 0px 1px 2px rgba(158,158,158,0.05);
   border: none;
   color: #F25D40;
+=======
+/* mi perfil ---------------------------------------------------------------------------------------*/
+
+
+.perfil-box{
+  background-color: #ffffff;
+  box-shadow: 0px 3px 6px rgba(158,158,158,0.05);
+  width: 100%;
+  padding-bottom: 30px;
+  height: 30%;
+  margin-top: 10px;
+}
+
+.perfil-box-form{
+  background-color: #ffffff;
+  box-shadow: 0px 3px 6px rgba(158,158,158,0.05);
+  width: 100%;
+  margin-top: 10px;
+}
+
+.img-space{
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.name-space{
+  margin-top: 60px;
+}
+
+.position{
+  float: right;
+}
+
+.blue-link{
+  color: #40B8F2;
+  text-decoration: underline;
+}
+
+.blue-link:hover{
+  color: #90D2F2;
+  text-decoration: underline;
+}
+
+.small-title-black-name{
+  font-weight: bold;
+  font-size: 18px;
+  color:#404040;
+  padding-top: 50px;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .small-title-black-name {
+    padding-top: 10px;
+  }
+
+}
+
+.boton-azul-perfil{
+  background-color: #DCF2FF;
+  border-radius: 2px;
+  box-shadow: 0px 1px 2px rgba(158,158,158,0.05);
+  border: none;
+  color: #40B8F2;
+>>>>>>> 3c4c7df3fab364161fbce647092ba4d698562353
   font-weight: 150px;
   height: 35px;
   padding-left: 40px;
   padding-right: 40px;
+<<<<<<< HEAD
 }
 
 .boton-rojo-no-margen:hover{
@@ -487,4 +601,20 @@ textarea {
 
 .float-boton-right{
   float: right;
+=======
+  margin-bottom: 10px;
+  margin-left:20px;
+
+}
+
+.boton-azul-perfil:hover{
+  background-color: #E3F5FF;
+}
+
+@media screen and (max-width: 767px) {
+  .small-title-black-name {
+    padding-top: 10px;
+  }
+
+>>>>>>> 3c4c7df3fab364161fbce647092ba4d698562353
 }
