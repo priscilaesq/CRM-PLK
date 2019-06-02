@@ -1,15 +1,5 @@
 <div class="container">
 <p class="big-titles"> Registrar cliente </p>
-<<<<<<< HEAD
-<button class="boton-azul"> Registrar clientes </button>
-
-<p class="texto-general-azul"> hola </p>
-<p class="texto-general-gris"> hola </p>
-<p class="texto-general-verde"> hola </p>
-<p class="texto-general-lightgray"> hola </p>
-<p class="texto-general-gris-bold"> hola </p>
-
-=======
         <div class="row">
             <article class="col-md-12 registro-cliente-box">
             <p class="texto-general-azul-big"> Datos Generales </p>
@@ -37,7 +27,6 @@
                         <input name="correo" class="form-input" type="email">
                     </article>
 
->>>>>>> 2a2ada97ea08bb675c35fc1518786efa4b53e0e3
 
                     <article class="col-md-6">
                         <p class="input-title"> Contraseña </p>
