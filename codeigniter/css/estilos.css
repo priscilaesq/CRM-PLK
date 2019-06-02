@@ -300,6 +300,7 @@ textarea {
   padding-right: 40px;
   width: 100%;
   padding-top: 30px;
+  margin-bottom: 50px;
 }
 
 .space-20{
@@ -370,7 +371,7 @@ textarea {
   height: 35px;
   padding-left: 35px;
   padding-right: 35px;
-  margin-top: 25px;
+  margin-top: 0px;
   margin-bottom: 40px;
 }
 
