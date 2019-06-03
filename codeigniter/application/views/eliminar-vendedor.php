@@ -1,5 +1,6 @@
 <div class="container">
-<p class="big-titles"> Eliminar vendedor </p>
+
+<p class="big-titles"> Eliminar vendedor: <?php echo $vendedor->nombre . " " . $vendedor->apellido ?> </p>
 <div class="row">
             <article class="col-md-12 registro-cliente-box">
             <p class="texto-general-gris"> Favor de seleccionar al vendedor que asumirá a los clientes. </p>
@@ -8,19 +9,18 @@
                 <article class="col-md-6">
                         <p class="input-title"> Seleccionar vendedor </p>
                         <select name="seleccionar-vendedor" class="dropdown">
-                            <option value="nombre-vendedor">Priscila Esquer</option>
-                            <option value="nombre-vendedor">Katia Murillo</option>
-                            <option value="nombre-vendedor">Laura Martínez</option>
-                            <option value="nombre-vendedor">Angel Aldrete</option>
-                            <option value="nombre-vendedor">Ismael Villegas</option>
-                            <option value="nombre-vendedor">Saul Hernandez</option>
+                            <?php
+                                foreach($vendedores as $vend) :
+                                    if($vend->id != $vendedor->id) :
+                            ?>
+                                <option value="<?php echo $vend->id ?>"> <?php echo $vend->nombre . ' ' . $vend->apellido ?> </option>
+                            <?php
+                                    endif;
+                                endforeach;
+                            ?>
                         </select>
-                        <button class="boton-verde"> Registrar cliente </button>
+                        <button class="boton-verde"> Eliminar vendedor </button>
                 </article>
             </form>
 </article>
 </div>
-
-
- 
- 

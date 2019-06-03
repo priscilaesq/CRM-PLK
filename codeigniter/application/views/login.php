@@ -7,7 +7,14 @@
                     <div class="formulario-login">
                     <center><img class="logo-login" src="/imgs/logo.png"></center>
                         <p class="small-title-black">Iniciar Sesión </p><br>
-                        <form action="" method="post">
+                        <?php
+                            if(@$error != '') :
+                        ?>
+                            <div class="alert alert-primary" role=alert>
+                                <?php echo $error; ?>
+                            </div>
+                        <?php endif; ?>
+                        <form action="/" method="post">
                             <p class="input-title"> Correo electrónico </p>
                             <input name="correo" class="form-input" type="email"><br><br>
                             <p class="input-title"> Contraseña </p>
@@ -16,15 +23,16 @@
                         </form>
                     </div>
                 </article>
-            </section>  
+            </section>
             <section class="image-login">
                 <article class="col-12 col-md-6">
                     <img class="imagen" src="/imgs/login-foto.png">
                 </article>
             </section>
-        </div>  
+        </div>
     </div>
 </section>
+
 
 
 

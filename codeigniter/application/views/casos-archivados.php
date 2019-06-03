@@ -8,54 +8,21 @@
                     <div class="cajita-vendedores">
                     <br><br>
                         <p class="texto-general-gris-bold"> Clientes </p><br>
-                            <div class="row">
-                            <article class="col-xs-8 col-md-8">
-                                <p class="texto-general-gris">Saul Juarez Hernandez </p>
+                            <?php
+                                foreach($solicitudes as $solicitud) : 
+                                    $cliente = $clientes[$solicitud->id_cliente]; 
+                            ?>
+                            <article class="lista-archivados">
+                                <p class="texto-general-gris"><?php echo $cliente->nombre . " " . $cliente->apellido ?>
+                                <a href="http://localhost/vendedor/recuperar/<?php echo $solicitud->id ?>">
+                                    Recuperar caso
+                                </a></p>
                             </article>
-                            <article class="col-xs-4 col-md-4">
-                                <p class="texto-general-verde">Recuperar caso </p>
-                            </article>
-                            <article class="col-xs-8 col-md-8">
-                                <p class="texto-general-gris">Saul Juarez Hernandez </p>
-                            </article>
-                            <article class="col-xs-4 col-md-4">
-                                <p class="texto-general-verde">Recuperar caso </p>
-                            </article>
-                            <article class="col-xs-8 col-md-8">
-                                <p class="texto-general-gris">Saul Juarez Hernandez </p>
-                            </article>
-                            <article class="col-xs-4 col-md-4">
-                                <p class="texto-general-verde">Recuperar caso </p>
-                            </article>
-                            <article class="col-xs-8 col-md-8">
-                                <p class="texto-general-gris">Saul Juarez Hernandez </p>
-                            </article>
-                            <article class="col-xs-4 col-md-4">
-                                <p class="texto-general-verde">Recuperar caso </p>
-                            </article>
-                            <article class="col-xs-8 col-md-8">
-                                <p class="texto-general-gris">Saul Juarez Hernandez </p>
-                            </article>
-                            <article class="col-xs-4 col-md-4">
-                                <p class="texto-general-verde">Recuperar caso </p>
-                            </article>
-                            <article class="col-xs-8 col-md-8">
-                                <p class="texto-general-gris">Saul Juarez Hernandez </p>
-                            </article>
-                            <article class="col-xs-4 col-md-4">
-                                <p class="texto-general-verde">Recuperar caso </p>
-                            </article>
-                            <article class="col-xs-8 col-md-8">
-                                <p class="texto-general-gris">Saul Juarez Hernandez </p>
-                            </article>
-                            <article class="col-xs-4 col-md-4">
-                                <p class="texto-general-verde">Recuperar caso </p>
-                            </article>
+                            <?php endforeach; ?>
                     </div>
                 </article>
-            </section>  
-            
-        </div>  
+            </section>
+        </div>
     </div>
 </section>
 

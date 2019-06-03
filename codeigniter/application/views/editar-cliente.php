@@ -1,5 +1,9 @@
+<?php $cliente = $cliente[0];
+$solicitud = $solicitud[0]; ?>
+
+
 <div class="container">
-<p class="big-titles"> Registro de cliente </p>
+<p class="big-titles"> Editar de cliente </p>
         <div class="row">
             <article class="col-md-12 registro-cliente-box">
             <p class="texto-general-azul-big"> Datos Generales </p>
@@ -8,23 +12,23 @@
                 <section id="form-registro">
                     <article class="col-md-6">
                         <p class="input-title"> Nombre </p>
-                        <input name="nombre" class="form-input" type="text">
+                        <input name="nombre" class="form-input" type="text" value="<?php echo $cliente->nombre ?>">
                     </article>
 
                     <article class="col-md-6">
                         <p class="input-title"> Apellidos </p>
-                        <input name="apellido" class="form-input" type="text">
+                        <input name="apellido" class="form-input" type="text" value="<?php echo $cliente->apellido ?>">
                     </article>
 
 
                     <article class="col-md-6">
                         <p class="input-title"> Correo electrónico </p>
-                        <input name="correo" class="form-input" type="email">
+                        <input name="correo" class="form-input" type="email" value="<?php echo $cliente->correo ?>">
                     </article>
 
                     <article class="col-md-6">
                         <p class="input-title"> RFC </p>
-                        <input name="rfc" class="form-input" type="text">
+                        <input name="rfc" class="form-input" type="text" value="<?php echo $solicitud->rfc ?>">
                     </article>
 
 
@@ -35,13 +39,14 @@
 
                     <article class="col-md-6">
                         <p class="input-title"> Edad </p>
-                        <input name="edad" class="form-input" type="number">
+                        <input name="edad" class="form-input" type="number" value="<?php echo $solicitud->edad ?>">
                     </article>
 
 
                     <article class="col-md-6">
                         <p class="input-title"> Probabilidad de concretar la venta </p>
                         <select name="probabilidad" class="dropdown" type="text">
+                            <option selected> <?php echo $solicitud->probabilidad ?></option>
                             <option value="Muy Baja">Muy baja</option>
                             <option value="Baja">Baja</option>
                             <option value="Medida">Media</option>
@@ -53,6 +58,7 @@
                     <article class="col-md-6">
                         <p class="input-title"> Estado de la solicitud </p>
                         <select name="estado" class="dropdown" type="text">
+                            <option selected> <?php echo $solicitud->estado ?></option>
                             <option value="Prospecto">Prospecto</option>
                             <option value="Cotizacioón de vehículo">Cotizacioón de vehículo</option>
                             <option value="Esperando resolución de crédito">Espereando resolucioón de crédito</option>
@@ -73,34 +79,29 @@
 
                     <article class="col-md-6">
                         <p class="input-title"> Marca </p>
-                        <input name="marca" class="form-input" type="text">
+                        <input name="marca" class="form-input" type="text" value="<?php echo $solicitud->marca ?>">
                     </article>
 
                     <article class="col-md-6">
                         <p class="input-title"> Modelo </p>
-                        <input name="modelo" class="form-input" type="text">
+                        <input name="modelo" class="form-input" type="text" value="<?php echo $solicitud->modelo ?>">
                     </article>
 
 
                     <article class="col-md-6">
                         <p class="input-title"> Año </p>
-                        <input name="ano" class="form-input" type="number">
+                        <input name="ano" class="form-input" type="number" value="<?php echo $solicitud->ano ?>">
                     </article>
 
                     <article class="col-md-6">
                         <p class="input-title"> Costo total </p>
-                        <input name="costo" class="form-input" type="number">
+                        <input name="costo" class="form-input" type="number" value="<?php echo $solicitud->costo ?>">
                     </article>
 
 
                     <article class="col-md-12">
                         <p class="input-title"> Avisos </p>
-                        <textarea name="aviso"></textarea>
-                    </article>
-
-                    <article class="col-md-6">
-                        <p class="input-title"> Documentos adicionales </p>
-                        <input type="file" name="archivo" class="upload-button">
+                        <textarea name="aviso"><?php echo $solicitud->aviso; ?></textarea>
                     </article>
 
                     <br><br>

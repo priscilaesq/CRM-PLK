@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php date_default_timezone_set('America/Los_Angeles'); ?><!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -20,6 +20,22 @@
   <title>PLK Agency® CRM </title>
 </head>
 <body>
+
+<section class="topnav-vendedor">
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active"><img class="imagen-size" src="/imgs/logo-nav.png"></a>
+  <a class="space-navs" href="#news">Mis Clientes</a>
+  <a class="space-navs" href="#contact">Registrar Cliente</a>
+  <a class="space-navs" href="#contact">Casos Archivados</a>
+  <a class="space-navs" href="#contact">Mi Perfil</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars">
+      <img class="space-navs" src="/imgs/burger-menu.png">
+    </i>
+  </a>
+</div>
+
+</section>
 
 <script>
 function myFunction() {
