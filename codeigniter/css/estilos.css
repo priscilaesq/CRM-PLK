@@ -649,6 +649,31 @@ textarea {
 	background-color: #FFE7E6;
 }
 
+.boton-rojo-no-margen,
+.boton-rojo-perfil {
+	background-color: #FFDDDC;
+	border-radius: 2px;
+	box-shadow: 0px 1px 2px rgba(158, 158, 158, 0.05);
+	border: none;
+	color: #F25D40;
+	font-weight: 150px;
+	height: 35px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.boton-rojo-perfil:hover {
+	background-color: #FFE7E6;
+}
+
+.padding-less {
+	padding-right: 0px;
+}
+
+.boton-rojo-no-margen:hover {
+	background-color: #FFE7E6;
+}
+
 .padding-less {
 	padding-right: 0px;
 }
