@@ -6,18 +6,14 @@
         <p class = "big-titles">Perfil General </p>
     </article>
     <article class="col-md-6 col-sm-6 col-xs-6 padding-less">
-        <button class="boton-rojo-perfil position"> Cerrar Sesión </button>
+        <a href="http://localhost/principal/logout" class="button boton-rojo-perfil position"> Cerrar Sesión </a>
     </article>
     </div>
         <div class="row">
            <div class="col-md-12 perfil-box">
                 <div class="row">
-               <article class="col-sm-4 col-md-2">
-                    <img class="img-circle img-space" src="/imgs/Sunny.jpg">
-                </article>
                 <article class="col-sm-8 col-md-10">
                 <p class = "small-title-black-name"><?php echo $_SESSION['info']->nombre . ' ' . $_SESSION['info']->apellido  ?></p>
-                    <button class="boton-azul-perfil"> Cambiar foto </button>
                 </article>
             </div>
         </div>

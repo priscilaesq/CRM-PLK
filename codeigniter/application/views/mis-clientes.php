@@ -3,9 +3,11 @@
     <div class="container">
         <p class="big-titles"> Hola, <?php echo $_SESSION['info']->nombre ?> </p>
         <div class="row"> 
+
 <?php
-    foreach($solicitudes as $solicitud) :
-        $cliente = $clientes[$solicitud->id_cliente];
+
+    foreach(@$solicitudes as $solicitud) :
+        @$cliente = @$clientes[$solicitud->id_cliente];
 ?>
             <div class="col-md-3">
                 <div class="cliente-box">

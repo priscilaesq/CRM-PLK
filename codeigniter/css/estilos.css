@@ -24,6 +24,10 @@
 	text-decoration: none;
 }
 
+.alert {
+	background-color: #ffdddc;
+}
+
 
 body {
 	margin: 0;

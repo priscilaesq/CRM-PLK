@@ -98,11 +98,6 @@
                         <textarea name="aviso"></textarea>
                     </article>
 
-                    <article class="col-md-6">
-                        <p class="input-title"> Documentos adicionales </p>
-                        <input type="file" name="archivo" class="upload-button">
-                    </article>
-
                     <br><br>
                     <article class="col-md-12">
                        <center> <button class="boton-verde"> Guardar cambios </button></center>

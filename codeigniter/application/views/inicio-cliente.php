@@ -14,17 +14,11 @@
                 <div class = "profile-client">
                     <div class = "row">
                       <section class = "profile">
-                        <article class = "col-md-5">
-                        <div class = "push-left">
-                          <img class="img-circle" src="/imgs/Sunny.jpg">
-                          </div>
-                        </article>
 
                         <article class = "col-md-7">
                           <div class = "spacer-laura2">
                             <p class = "small-title-black"><?php echo $_SESSION['info']->nombre . " " . $_SESSION['info']->apellido ?> </p>
                           </div>
-                          <button class="boton-verde"> Editar perfil </button>
                         </article>
 
                       </section>

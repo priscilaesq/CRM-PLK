@@ -63,12 +63,6 @@
                         </select>
                     </article>
 
-
-                    <article class="col-md-12">
-                        <p class="input-title"> Documentos adicionales </p>
-                        <input type="file" name="doc-adicional" class="upload-button">
-                    </article>
-
                 </div>
 
                 <div class="row">
@@ -102,11 +96,6 @@
                     <article class="col-md-12">
                         <p class="input-title"> Avisos </p>
                         <input name="correo" class="form-input" type="email">
-                    </article>
-
-                    <article class="col-md-6">
-                        <p class="input-title"> Documentos adicionales </p>
-                        <input type="file" name="archivo" class="upload-button">
                     </article>
 
 

@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Principal extends CI_Controller {
 
 	public function index() {
-		if($_SESSION['info']->tipo != '') {
+		if(@$_SESSION['info']->tipo != '') {
 			$tipo = $_SESSION['info']->tipo;
 			redirect('http://localhost/' . $tipo);
 		}
@@ -19,7 +19,7 @@ class Principal extends CI_Controller {
 				redirect('http://localhost/'.$usuario[0]->tipo);
 			}
 			else {
-				$data['error'] = 'No existe el usuario';
+				$data['error'] = 'No existe el usuario o la contraseña es incorrecta.';
 			}
 		}
 		$data['vista'] = 'login';

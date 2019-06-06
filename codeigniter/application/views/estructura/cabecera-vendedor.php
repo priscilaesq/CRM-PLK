@@ -23,11 +23,11 @@
 
 <section class="topnav-vendedor">
 <div class="topnav" id="myTopnav">
-  <a href="#home" class="active"><img class="imagen-size" src="/imgs/logo-nav.png"></a>
-  <a class="space-navs" href="#news">Mis Clientes</a>
-  <a class="space-navs" href="#contact">Registrar Cliente</a>
-  <a class="space-navs" href="#contact">Casos Archivados</a>
-  <a class="space-navs" href="#contact">Mi Perfil</a>
+  <a href="http://localhost/" class="active"><img class="imagen-size" src="/imgs/logo-nav.png"></a>
+  <a class="space-navs" href="http://localhost/vendedor/">Mis Clientes</a>
+  <a class="space-navs" href="http://localhost/vendedor/registrar_cliente">Registrar Cliente</a>
+  <a class="space-navs" href="http://localhost/vendedor/archivados">Casos Archivados</a>
+  <a class="space-navs" href="http://localhost/vendedor/perfil">Mi Perfil</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars">
       <img class="space-navs" src="/imgs/burger-menu.png">

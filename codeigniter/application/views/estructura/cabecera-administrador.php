@@ -23,9 +23,9 @@
 
 <section class="topnav-vendedor">
 <div class="topnav" id="myTopnav">
-  <a href="#home" class="active"><img class="imagen-size" src="/imgs/logo-nav.png"></a>
-  <a class="space-navs" href="#news">Gestionar Cuentas</a>
-  <a class="space-navs" href="#contact">Mi Perfil</a>
+  <a href="http://localhost/" class="active"><img class="imagen-size" src="/imgs/logo-nav.png"></a>
+  <a class="space-navs" href="http://localhost/administrador">Gestionar Cuentas</a>
+  <a class="space-navs" href="http://localhost/administrador/perfil">Mi Perfil</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars">
       <img class="space-navs" src="/imgs/burger-menu.png">

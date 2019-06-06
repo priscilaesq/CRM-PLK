@@ -162,16 +162,27 @@
     }
 
     function get_solicitudes($archivado = '') {
+      $args['id_vendedor'] = $_SESSION['info']->id;
       if($archivado != '') {
-        $args = [
-          'archivado' => $archivado
-        ];
+        $args['archivado'] = $archivado;
         $solicitud = $this->db->get_where('solicitud', $args)->result();
       }
       else {
-        $solicitud = $this->db->get('solicitud')->result();
+        $solicitud = $this->db->get_where('solicitud', $args)->result();
       }
       return $solicitud;
+    }
+
+    function eliminar_vendedor($id_old, $id_new) {
+      //INTERCABIO
+      $args = [
+        'id_vendedor' => $id_old,
+      ];
+      $data = [
+        'id_vendedor' => $id_new,
+      ];
+      $this->db->update('solicitud', $data, $args);
+      $this->db->delete('usuario', array('id' => $id_old)); 
     }
 
     function get_chat_solicitud($id_solicitud) {
